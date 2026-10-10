@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block title %}Giới thiệu - DryBean AI{% endblock %}
+
+{% block content %}
+<section id="intro" class="section">
+    <h1 class="section-title">Phân loại giống đậu khô bằng Machine Learning</h1>
+    <p class="section-desc">
+        Mô hình sử dụng 16 đặc trưng hình học để phân loại các mẫu đậu thành một trong 7 giống hạt khác nhau, 
+        ứng dụng thuật toán <strong>K-Nearest Neighbors (KNN)</strong>.
+    </p>
+    
+    <div class="info-cards">
+        <div class="card">
+            <h3>16</h3>
+            <p>Đặc trưng</p>
+        </div>
+        <div class="card">
+            <h3>7</h3>
+            <p>Lớp đậu</p>
+        </div>
+        <div class="card">
+            <h3>K = 18</h3>
+            <p>K tối ưu</p>
+        </div>
+    </div>
+
+    <div class="disclaimer">
+        * Dữ liệu trên là cấu hình mô tả thông tin của dự án, không xác nhận tính chính xác tuyệt đối.
+    </div>
+
+    <div class="btn-container center">
+        <a href="{{ url_for('predict_page') }}" class="btn btn-primary">Bắt đầu dự đoán</a>
+    </div>
+</section>
+{% endblock %}

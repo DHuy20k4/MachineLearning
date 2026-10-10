@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}Dự đoán - DryBean AI{% endblock %}
+
+{% block content %}
+<section id="prediction" class="section bg-light">
+    <h2 class="section-title">Dự đoán giống đậu</h2>
+    <p class="section-desc">Nhập thông tin 16 đặc trưng để dự đoán phân loại.</p>
+
+    <form id="predict-form" class="prediction-grid">
+        <!-- Inputs sẽ được generate bằng JavaScript -->
+    </form>
+
+    <div class="form-actions center">
+        <button type="submit" form="predict-form" class="btn btn-primary" id="btn-submit">Phân loại</button>
+        <button type="button" class="btn btn-secondary" id="btn-clear">Xóa dữ liệu</button>
+    </div>
+
+    <!-- Kết quả hiển thị -->
+    <div id="result-container" class="result-box hidden">
+        <h3>Kết quả phân loại: <span id="predicted-class" class="highlight-class"></span></h3>
+        <p class="disclaimer-text">Lưu ý: Xác suất hiển thị là xác suất theo lớp của mô hình KNN, không phải độ chắc chắn tuyệt đối.</p>
+        <div id="probabilities-list" class="prob-list"></div>
+    </div>
+    
+    <!-- Lỗi hiển thị -->
+    <div id="error-container" class="error-box hidden">
+        <p id="error-msg"></p>
+    </div>
+</section>
+{% endblock %}

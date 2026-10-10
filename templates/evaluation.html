@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block title %}Đánh giá mô hình - DryBean AI{% endblock %}
+
+{% block content %}
+<section id="evaluation" class="section">
+    <h2 class="section-title">Đánh giá mô hình</h2>
+    <p class="section-desc">Trình bày kết quả đánh giá mô hình cuối cùng trên tập test (2.032 mẫu).</p>
+
+    <div class="metrics-grid">
+        <div class="metric-card">
+            <h4>Độ chính xác</h4>
+            <p class="metric-value">91.04%</p>
+            <p class="metric-desc">Tỷ lệ dự đoán đúng trên toàn bộ tập dữ liệu.</p>
+        </div>
+        <div class="metric-card">
+            <h4>Macro-F1</h4>
+            <p class="metric-value">92.37%</p>
+            <p class="metric-desc">Trung bình F1-score của các lớp, cân bằng giữa Precision và Recall.</p>
+        </div>
+        <div class="metric-card">
+            <h4>Độ chính xác cân bằng</h4>
+            <p class="metric-value">92.24%</p>
+            <p class="metric-desc">Độ chính xác khi xét đến mất cân bằng dữ liệu giữa các lớp.</p>
+        </div>
+    </div>
+
+    <div class="model-config">
+        <h3>Cấu hình mô hình</h3>
+        <ul>
+            <li><strong>Thuật toán:</strong> K-Nearest Neighbors (KNN)</li>
+            <li><strong>Tiền xử lý:</strong> StandardScaler</li>
+            <li><strong>Số láng giềng:</strong> K = 18</li>
+            <li><strong>Trọng số:</strong> distance (khoảng cách)</li>
+            <li><strong>Khoảng cách:</strong> Euclidean</li>
+        </ul>
+    </div>
+
+    <div class="confusion-matrix-section">
+        <h3>Ma trận nhầm lẫn (Confusion Matrix)</h3>
+        <p>Hàng là nhãn thực tế, cột là nhãn dự đoán.</p>
+        <div class="table-responsive">
+            <img src="/static/images/confusion_matrix.png" alt="Confusion Matrix" class="confusion-img" onerror="this.src=''; this.alt='Không tìm thấy hình ảnh ma trận nhầm lẫn'; this.classList.add('missing-img');">
+        </div>
+        
+        <div class="error-analysis">
+            <h4>Phân tích lỗi:</h4>
+            <p>Hai lớp dễ nhầm lẫn nhất từ kết quả hiện tại:</p>
+            <ul>
+                <li><strong>DERMASON và SIRA:</strong> tổng cộng 82 trường hợp dự đoán sai theo hai chiều.</li>
+                <li><strong>BARBUNYA và CALI:</strong> tổng cộng 22 trường hợp sai theo hai chiều.</li>
+            </ul>
+            <p class="disclaimer-text">Các lớp có hình dạng tương đồng có thể khó phân biệt. Cần phân tích sâu hơn để cải thiện.</p>
+        </div>
+    </div>
+</section>
+{% endblock %}

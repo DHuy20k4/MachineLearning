@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}DryBean AI - Phân Loại Giống Đậu Khô{% endblock %}</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Thanh điều hướng -->
+    <nav class="navbar">
+        <div class="nav-brand">DryBean AI</div>
+        <ul class="nav-links">
+            <li><a href="{{ url_for('index') }}" class="{% if request.endpoint == 'index' %}active{% endif %}">Giới thiệu</a></li>
+            <li><a href="{{ url_for('predict_page') }}" class="{% if request.endpoint == 'predict_page' %}active{% endif %}">Dự đoán</a></li>
+            <li><a href="{{ url_for('evaluation_page') }}" class="{% if request.endpoint == 'evaluation_page' %}active{% endif %}">Đánh giá mô hình</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
