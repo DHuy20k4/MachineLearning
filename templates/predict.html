@@ -7,13 +7,39 @@
     <h2 class="section-title">Dự đoán giống đậu</h2>
     <p class="section-desc">Nhập thông tin 16 đặc trưng để dự đoán phân loại.</p>
 
-    <form id="predict-form" class="prediction-grid">
-        <!-- Inputs sẽ được generate bằng JavaScript -->
+    <!-- Thanh nạp mẫu có sẵn -->
+    <div class="presets-toolbar">
+        <div class="presets-header">
+            <span class="presets-label"><strong>Mẫu ví dụ từ tập dữ liệu:</strong></span>
+            <span class="presets-note">(Dữ liệu quan sát thực tế để nạp nhanh, không phải giá trị chuẩn duy nhất)</span>
+        </div>
+        <div class="presets-actions">
+            <div class="preset-buttons" id="preset-buttons">
+                <!-- Các nút mẫu giống đậu sẽ được tạo bởi JavaScript -->
+            </div>
+            <button type="button" class="btn btn-outline" id="btn-random-sample" title="Chọn ngẫu nhiên 1 mẫu ví dụ">
+                🎲 Mẫu ngẫu nhiên
+            </button>
+        </div>
+    </div>
+
+    <form id="predict-form" class="prediction-form">
+        <!-- Nhóm 4 đặc trưng chính (có slider) -->
+        <div class="features-section">
+            <h3 class="section-subtitle">Đặc trưng hình thái chủ đạo (Có thanh trượt điều chỉnh)</h3>
+            <div id="primary-features-grid" class="features-grid primary-grid"></div>
+        </div>
+
+        <!-- Nhóm 12 đặc trưng còn lại -->
+        <div class="features-section">
+            <h3 class="section-subtitle">Chỉ số tỷ lệ & Hệ số hình dạng (Nhập số chính xác)</h3>
+            <div id="secondary-features-grid" class="features-grid secondary-grid"></div>
+        </div>
     </form>
 
     <div class="form-actions center">
         <button type="submit" form="predict-form" class="btn btn-primary" id="btn-submit">Phân loại</button>
-        <button type="button" class="btn btn-secondary" id="btn-clear">Xóa dữ liệu</button>
+        <button type="button" class="btn btn-secondary" id="btn-clear">Xóa dữ liệu / Đặt lại</button>
     </div>
 
     <!-- Kết quả hiển thị -->

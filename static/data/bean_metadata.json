@@ -1,0 +1,650 @@
+{
+  "stats": {
+    "Area": {
+      "min": 20464.0,
+      "max": 248424.0,
+      "mean": 53052.38411,
+      "std": 29454.61849
+    },
+    "Perimeter": {
+      "min": 524.736,
+      "max": 1921.685,
+      "mean": 854.72124,
+      "std": 215.07411
+    },
+    "MajorAxisLength": {
+      "min": 183.96525,
+      "max": 738.1445,
+      "mean": 319.8055,
+      "std": 85.94555
+    },
+    "MinorAxisLength": {
+      "min": 122.51265,
+      "max": 460.1985,
+      "mean": 202.39853,
+      "std": 45.15577
+    },
+    "AspectRatio": {
+      "min": 1.03642,
+      "max": 2.43031,
+      "mean": 1.58039,
+      "std": 0.24549
+    },
+    "Eccentricity": {
+      "min": 0.26277,
+      "max": 0.91142,
+      "mean": 0.75003,
+      "std": 0.09194
+    },
+    "ConvexArea": {
+      "min": 20772.0,
+      "max": 251082.0,
+      "mean": 53770.91708,
+      "std": 29901.54439
+    },
+    "EquivDiameter": {
+      "min": 161.41739,
+      "max": 562.40845,
+      "mean": 253.01685,
+      "std": 59.42425
+    },
+    "Extent": {
+      "min": 0.55531,
+      "max": 0.86619,
+      "mean": 0.74988,
+      "std": 0.04894
+    },
+    "Solidity": {
+      "min": 0.94457,
+      "max": 0.99468,
+      "mean": 0.98716,
+      "std": 0.00459
+    },
+    "Roundness": {
+      "min": 0.55677,
+      "max": 0.99069,
+      "mean": 0.87407,
+      "std": 0.05889
+    },
+    "Compactness": {
+      "min": 0.64058,
+      "max": 0.98161,
+      "mean": 0.80054,
+      "std": 0.06152
+    },
+    "ShapeFactor1": {
+      "min": 0.00278,
+      "max": 0.01045,
+      "mean": 0.00656,
+      "std": 0.00113
+    },
+    "ShapeFactor2": {
+      "min": 0.00056,
+      "max": 0.00366,
+      "mean": 0.00172,
+      "std": 0.0006
+    },
+    "ShapeFactor3": {
+      "min": 0.41034,
+      "max": 0.96356,
+      "mean": 0.64464,
+      "std": 0.09874
+    },
+    "ShapeFactor4": {
+      "min": 0.94999,
+      "max": 0.99973,
+      "mean": 0.99507,
+      "std": 0.00432
+    }
+  },
+  "presets": {
+    "BARBUNYA": {
+      "Area": 69651.0,
+      "Perimeter": 997.465,
+      "MajorAxisLength": 361.70289,
+      "MinorAxisLength": 245.91553,
+      "AspectRatio": 1.47084,
+      "Eccentricity": 0.73332,
+      "ConvexArea": 70419.0,
+      "EquivDiameter": 297.79592,
+      "Extent": 0.74618,
+      "Solidity": 0.98909,
+      "Roundness": 0.87971,
+      "Compactness": 0.82332,
+      "ShapeFactor1": 0.00519,
+      "ShapeFactor2": 0.00147,
+      "ShapeFactor3": 0.67785,
+      "ShapeFactor4": 0.99701
+    },
+    "BOMBAY": {
+      "Area": 171620.0,
+      "Perimeter": 1583.298,
+      "MajorAxisLength": 566.12178,
+      "MinorAxisLength": 389.9039,
+      "AspectRatio": 1.45195,
+      "Eccentricity": 0.72502,
+      "ConvexArea": 174696.0,
+      "EquivDiameter": 467.45414,
+      "Extent": 0.79026,
+      "Solidity": 0.98239,
+      "Roundness": 0.8603,
+      "Compactness": 0.82571,
+      "ShapeFactor1": 0.0033,
+      "ShapeFactor2": 0.00095,
+      "ShapeFactor3": 0.6818,
+      "ShapeFactor4": 0.98994
+    },
+    "CALI": {
+      "Area": 74528.0,
+      "Perimeter": 1053.985,
+      "MajorAxisLength": 418.45766,
+      "MinorAxisLength": 228.96519,
+      "AspectRatio": 1.8276,
+      "Eccentricity": 0.83703,
+      "ConvexArea": 75854.0,
+      "EquivDiameter": 308.04545,
+      "Extent": 0.78543,
+      "Solidity": 0.98252,
+      "Roundness": 0.84306,
+      "Compactness": 0.73614,
+      "ShapeFactor1": 0.00561,
+      "ShapeFactor2": 0.00102,
+      "ShapeFactor3": 0.54191,
+      "ShapeFactor4": 0.9904
+    },
+    "DERMASON": {
+      "Area": 31855.0,
+      "Perimeter": 664.685,
+      "MajorAxisLength": 251.88569,
+      "MinorAxisLength": 161.25127,
+      "AspectRatio": 1.56207,
+      "Eccentricity": 0.76823,
+      "ConvexArea": 32169.0,
+      "EquivDiameter": 201.39276,
+      "Extent": 0.71836,
+      "Solidity": 0.99024,
+      "Roundness": 0.90606,
+      "Compactness": 0.79954,
+      "ShapeFactor1": 0.00791,
+      "ShapeFactor2": 0.00199,
+      "ShapeFactor3": 0.63926,
+      "ShapeFactor4": 0.99858
+    },
+    "HOROZ": {
+      "Area": 53802.0,
+      "Perimeter": 929.21,
+      "MajorAxisLength": 374.2964,
+      "MinorAxisLength": 184.60691,
+      "AspectRatio": 2.02753,
+      "Eccentricity": 0.86991,
+      "ConvexArea": 54493.0,
+      "EquivDiameter": 261.73046,
+      "Extent": 0.60684,
+      "Solidity": 0.98732,
+      "Roundness": 0.78303,
+      "Compactness": 0.69926,
+      "ShapeFactor1": 0.00696,
+      "ShapeFactor2": 0.00103,
+      "ShapeFactor3": 0.48896,
+      "ShapeFactor4": 0.99139
+    },
+    "SEKER": {
+      "Area": 39183.0,
+      "Perimeter": 721.153,
+      "MajorAxisLength": 254.15912,
+      "MinorAxisLength": 196.58997,
+      "AspectRatio": 1.29284,
+      "Eccentricity": 0.63381,
+      "ConvexArea": 39567.0,
+      "EquivDiameter": 223.35923,
+      "Extent": 0.75377,
+      "Solidity": 0.99029,
+      "Roundness": 0.94679,
+      "Compactness": 0.87882,
+      "ShapeFactor1": 0.00649,
+      "ShapeFactor2": 0.00239,
+      "ShapeFactor3": 0.77232,
+      "ShapeFactor4": 0.99848
+    },
+    "SIRA": {
+      "Area": 44691.0,
+      "Perimeter": 800.745,
+      "MajorAxisLength": 297.85803,
+      "MinorAxisLength": 191.5265,
+      "AspectRatio": 1.55518,
+      "Eccentricity": 0.76586,
+      "ConvexArea": 45217.0,
+      "EquivDiameter": 238.54213,
+      "Extent": 0.70304,
+      "Solidity": 0.98837,
+      "Roundness": 0.87587,
+      "Compactness": 0.80086,
+      "ShapeFactor1": 0.00666,
+      "ShapeFactor2": 0.00169,
+      "ShapeFactor3": 0.64137,
+      "ShapeFactor4": 0.99745
+    }
+  },
+  "sample_pool": [
+    {
+      "true_class": "BOMBAY",
+      "values": {
+        "Area": 145339.0,
+        "Perimeter": 1465.758,
+        "MajorAxisLength": 543.25845,
+        "MinorAxisLength": 342.46875,
+        "AspectRatio": 1.5863,
+        "Eccentricity": 0.77627,
+        "ConvexArea": 147256.0,
+        "EquivDiameter": 430.17597,
+        "Extent": 0.69596,
+        "Solidity": 0.98698,
+        "Roundness": 0.8501,
+        "Compactness": 0.79184,
+        "ShapeFactor1": 0.00374,
+        "ShapeFactor2": 0.00091,
+        "ShapeFactor3": 0.62702,
+        "ShapeFactor4": 0.99464
+      }
+    },
+    {
+      "true_class": "HOROZ",
+      "values": {
+        "Area": 57431.0,
+        "Perimeter": 944.296,
+        "MajorAxisLength": 387.14115,
+        "MinorAxisLength": 189.70414,
+        "AspectRatio": 2.04076,
+        "Eccentricity": 0.87172,
+        "ConvexArea": 58090.0,
+        "EquivDiameter": 270.41342,
+        "Extent": 0.72061,
+        "Solidity": 0.98866,
+        "Roundness": 0.80936,
+        "Compactness": 0.69849,
+        "ShapeFactor1": 0.00674,
+        "ShapeFactor2": 0.00099,
+        "ShapeFactor3": 0.48789,
+        "ShapeFactor4": 0.99566
+      }
+    },
+    {
+      "true_class": "HOROZ",
+      "values": {
+        "Area": 44846.0,
+        "Perimeter": 832.162,
+        "MajorAxisLength": 342.39146,
+        "MinorAxisLength": 168.04326,
+        "AspectRatio": 2.03752,
+        "Eccentricity": 0.87128,
+        "ConvexArea": 45356.0,
+        "EquivDiameter": 238.95544,
+        "Extent": 0.68561,
+        "Solidity": 0.98876,
+        "Roundness": 0.8138,
+        "Compactness": 0.6979,
+        "ShapeFactor1": 0.00763,
+        "ShapeFactor2": 0.00112,
+        "ShapeFactor3": 0.48707,
+        "ShapeFactor4": 0.99241
+      }
+    },
+    {
+      "true_class": "SIRA",
+      "values": {
+        "Area": 46652.0,
+        "Perimeter": 805.423,
+        "MajorAxisLength": 296.14166,
+        "MinorAxisLength": 201.31722,
+        "AspectRatio": 1.47102,
+        "Eccentricity": 0.7334,
+        "ConvexArea": 47209.0,
+        "EquivDiameter": 243.71945,
+        "Extent": 0.79486,
+        "Solidity": 0.9882,
+        "Roundness": 0.90372,
+        "Compactness": 0.82298,
+        "ShapeFactor1": 0.00635,
+        "ShapeFactor2": 0.0018,
+        "ShapeFactor3": 0.6773,
+        "ShapeFactor4": 0.99632
+      }
+    },
+    {
+      "true_class": "CALI",
+      "values": {
+        "Area": 74870.0,
+        "Perimeter": 1046.748,
+        "MajorAxisLength": 406.52587,
+        "MinorAxisLength": 236.13163,
+        "AspectRatio": 1.72161,
+        "Eccentricity": 0.81401,
+        "ConvexArea": 75593.0,
+        "EquivDiameter": 308.75143,
+        "Extent": 0.72703,
+        "Solidity": 0.99044,
+        "Roundness": 0.85868,
+        "Compactness": 0.75949,
+        "ShapeFactor1": 0.00543,
+        "ShapeFactor2": 0.00111,
+        "ShapeFactor3": 0.57682,
+        "ShapeFactor4": 0.99306
+      }
+    },
+    {
+      "true_class": "SIRA",
+      "values": {
+        "Area": 48044.0,
+        "Perimeter": 824.551,
+        "MajorAxisLength": 317.72223,
+        "MinorAxisLength": 192.88353,
+        "AspectRatio": 1.64722,
+        "Eccentricity": 0.79464,
+        "ConvexArea": 48442.0,
+        "EquivDiameter": 247.32877,
+        "Extent": 0.80787,
+        "Solidity": 0.99178,
+        "Roundness": 0.888,
+        "Compactness": 0.77844,
+        "ShapeFactor1": 0.00661,
+        "ShapeFactor2": 0.0015,
+        "ShapeFactor3": 0.60597,
+        "ShapeFactor4": 0.99817
+      }
+    },
+    {
+      "true_class": "SIRA",
+      "values": {
+        "Area": 43673.0,
+        "Perimeter": 806.661,
+        "MajorAxisLength": 290.79593,
+        "MinorAxisLength": 193.19485,
+        "AspectRatio": 1.5052,
+        "Eccentricity": 0.74741,
+        "ConvexArea": 44349.0,
+        "EquivDiameter": 235.80965,
+        "Extent": 0.72057,
+        "Solidity": 0.98476,
+        "Roundness": 0.84341,
+        "Compactness": 0.81091,
+        "ShapeFactor1": 0.00666,
+        "ShapeFactor2": 0.00178,
+        "ShapeFactor3": 0.65758,
+        "ShapeFactor4": 0.98978
+      }
+    },
+    {
+      "true_class": "CALI",
+      "values": {
+        "Area": 78992.0,
+        "Perimeter": 1106.05,
+        "MajorAxisLength": 437.39567,
+        "MinorAxisLength": 232.02723,
+        "AspectRatio": 1.8851,
+        "Eccentricity": 0.8477,
+        "ConvexArea": 79915.0,
+        "EquivDiameter": 317.13678,
+        "Extent": 0.64987,
+        "Solidity": 0.98845,
+        "Roundness": 0.81142,
+        "Compactness": 0.72506,
+        "ShapeFactor1": 0.00554,
+        "ShapeFactor2": 0.00094,
+        "ShapeFactor3": 0.52571,
+        "ShapeFactor4": 0.99101
+      }
+    },
+    {
+      "true_class": "SEKER",
+      "values": {
+        "Area": 39765.0,
+        "Perimeter": 736.601,
+        "MajorAxisLength": 253.96811,
+        "MinorAxisLength": 199.93839,
+        "AspectRatio": 1.27023,
+        "Eccentricity": 0.61662,
+        "ConvexArea": 40214.0,
+        "EquivDiameter": 225.01193,
+        "Extent": 0.74976,
+        "Solidity": 0.98883,
+        "Roundness": 0.92097,
+        "Compactness": 0.88598,
+        "ShapeFactor1": 0.00639,
+        "ShapeFactor2": 0.00243,
+        "ShapeFactor3": 0.78497,
+        "ShapeFactor4": 0.99709
+      }
+    },
+    {
+      "true_class": "SEKER",
+      "values": {
+        "Area": 42297.0,
+        "Perimeter": 756.137,
+        "MajorAxisLength": 266.42019,
+        "MinorAxisLength": 202.48158,
+        "AspectRatio": 1.31577,
+        "Eccentricity": 0.64991,
+        "ConvexArea": 42716.0,
+        "EquivDiameter": 232.06511,
+        "Extent": 0.75466,
+        "Solidity": 0.99019,
+        "Roundness": 0.92965,
+        "Compactness": 0.87105,
+        "ShapeFactor1": 0.0063,
+        "ShapeFactor2": 0.00224,
+        "ShapeFactor3": 0.75873,
+        "ShapeFactor4": 0.99831
+      }
+    },
+    {
+      "true_class": "BARBUNYA",
+      "values": {
+        "Area": 73608.0,
+        "Perimeter": 1062.467,
+        "MajorAxisLength": 391.59045,
+        "MinorAxisLength": 240.20262,
+        "AspectRatio": 1.63025,
+        "Eccentricity": 0.78977,
+        "ConvexArea": 74612.0,
+        "EquivDiameter": 306.13823,
+        "Extent": 0.7347,
+        "Solidity": 0.98654,
+        "Roundness": 0.81942,
+        "Compactness": 0.78178,
+        "ShapeFactor1": 0.00532,
+        "ShapeFactor2": 0.00123,
+        "ShapeFactor3": 0.61118,
+        "ShapeFactor4": 0.99638
+      }
+    },
+    {
+      "true_class": "DERMASON",
+      "values": {
+        "Area": 41408.0,
+        "Perimeter": 756.571,
+        "MajorAxisLength": 287.15768,
+        "MinorAxisLength": 184.12751,
+        "AspectRatio": 1.55956,
+        "Eccentricity": 0.76737,
+        "ConvexArea": 41755.0,
+        "EquivDiameter": 229.61338,
+        "Extent": 0.68466,
+        "Solidity": 0.99169,
+        "Roundness": 0.90906,
+        "Compactness": 0.79961,
+        "ShapeFactor1": 0.00693,
+        "ShapeFactor2": 0.00175,
+        "ShapeFactor3": 0.63937,
+        "ShapeFactor4": 0.99714
+      }
+    },
+    {
+      "true_class": "DERMASON",
+      "values": {
+        "Area": 33693.0,
+        "Perimeter": 672.456,
+        "MajorAxisLength": 242.00996,
+        "MinorAxisLength": 177.9303,
+        "AspectRatio": 1.36014,
+        "Eccentricity": 0.67783,
+        "ConvexArea": 34008.0,
+        "EquivDiameter": 207.12137,
+        "Extent": 0.77784,
+        "Solidity": 0.99074,
+        "Roundness": 0.93631,
+        "Compactness": 0.85584,
+        "ShapeFactor1": 0.00718,
+        "ShapeFactor2": 0.00238,
+        "ShapeFactor3": 0.73246,
+        "ShapeFactor4": 0.99625
+      }
+    },
+    {
+      "true_class": "BARBUNYA",
+      "values": {
+        "Area": 90639.0,
+        "Perimeter": 1168.399,
+        "MajorAxisLength": 405.80898,
+        "MinorAxisLength": 286.54214,
+        "AspectRatio": 1.41623,
+        "Eccentricity": 0.70811,
+        "ConvexArea": 92250.0,
+        "EquivDiameter": 339.71335,
+        "Extent": 0.78059,
+        "Solidity": 0.98254,
+        "Roundness": 0.83434,
+        "Compactness": 0.83713,
+        "ShapeFactor1": 0.00448,
+        "ShapeFactor2": 0.00136,
+        "ShapeFactor3": 0.70078,
+        "ShapeFactor4": 0.99246
+      }
+    },
+    {
+      "true_class": "HOROZ",
+      "values": {
+        "Area": 48563.0,
+        "Perimeter": 875.414,
+        "MajorAxisLength": 352.93314,
+        "MinorAxisLength": 176.53453,
+        "AspectRatio": 1.99923,
+        "Eccentricity": 0.86591,
+        "ConvexArea": 49298.0,
+        "EquivDiameter": 248.66108,
+        "Extent": 0.6805,
+        "Solidity": 0.98509,
+        "Roundness": 0.79632,
+        "Compactness": 0.70456,
+        "ShapeFactor1": 0.00727,
+        "ShapeFactor2": 0.0011,
+        "ShapeFactor3": 0.4964,
+        "ShapeFactor4": 0.99242
+      }
+    },
+    {
+      "true_class": "CALI",
+      "values": {
+        "Area": 71977.0,
+        "Perimeter": 1034.818,
+        "MajorAxisLength": 398.28301,
+        "MinorAxisLength": 231.39875,
+        "AspectRatio": 1.7212,
+        "Eccentricity": 0.81391,
+        "ConvexArea": 72900.0,
+        "EquivDiameter": 302.72754,
+        "Extent": 0.79006,
+        "Solidity": 0.98734,
+        "Roundness": 0.84465,
+        "Compactness": 0.76008,
+        "ShapeFactor1": 0.00553,
+        "ShapeFactor2": 0.00114,
+        "ShapeFactor3": 0.57772,
+        "ShapeFactor4": 0.99438
+      }
+    },
+    {
+      "true_class": "BARBUNYA",
+      "values": {
+        "Area": 70213.0,
+        "Perimeter": 1067.05,
+        "MajorAxisLength": 386.60282,
+        "MinorAxisLength": 232.09088,
+        "AspectRatio": 1.66574,
+        "Eccentricity": 0.79975,
+        "ConvexArea": 71494.0,
+        "EquivDiameter": 298.99493,
+        "Extent": 0.67487,
+        "Solidity": 0.98208,
+        "Roundness": 0.77492,
+        "Compactness": 0.77339,
+        "ShapeFactor1": 0.00551,
+        "ShapeFactor2": 0.00122,
+        "ShapeFactor3": 0.59813,
+        "ShapeFactor4": 0.99633
+      }
+    },
+    {
+      "true_class": "DERMASON",
+      "values": {
+        "Area": 39579.0,
+        "Perimeter": 746.911,
+        "MajorAxisLength": 273.39436,
+        "MinorAxisLength": 184.63083,
+        "AspectRatio": 1.48076,
+        "Eccentricity": 0.73752,
+        "ConvexArea": 40043.0,
+        "EquivDiameter": 224.48507,
+        "Extent": 0.79869,
+        "Solidity": 0.98841,
+        "Roundness": 0.89153,
+        "Compactness": 0.8211,
+        "ShapeFactor1": 0.00691,
+        "ShapeFactor2": 0.00194,
+        "ShapeFactor3": 0.67421,
+        "ShapeFactor4": 0.99835
+      }
+    },
+    {
+      "true_class": "DERMASON",
+      "values": {
+        "Area": 29961.0,
+        "Perimeter": 631.511,
+        "MajorAxisLength": 223.43301,
+        "MinorAxisLength": 171.04756,
+        "AspectRatio": 1.30626,
+        "Eccentricity": 0.64338,
+        "ConvexArea": 30299.0,
+        "EquivDiameter": 195.31393,
+        "Extent": 0.79773,
+        "Solidity": 0.98884,
+        "Roundness": 0.94407,
+        "Compactness": 0.87415,
+        "ShapeFactor1": 0.00746,
+        "ShapeFactor2": 0.00269,
+        "ShapeFactor3": 0.76414,
+        "ShapeFactor4": 0.99816
+      }
+    },
+    {
+      "true_class": "SIRA",
+      "values": {
+        "Area": 47142.0,
+        "Perimeter": 839.093,
+        "MajorAxisLength": 327.15506,
+        "MinorAxisLength": 183.95365,
+        "AspectRatio": 1.77846,
+        "Eccentricity": 0.82695,
+        "ConvexArea": 47669.0,
+        "EquivDiameter": 244.99604,
+        "Extent": 0.69413,
+        "Solidity": 0.98894,
+        "Roundness": 0.84139,
+        "Compactness": 0.74887,
+        "ShapeFactor1": 0.00694,
+        "ShapeFactor2": 0.00135,
+        "ShapeFactor3": 0.5608,
+        "ShapeFactor4": 0.99737
+      }
+    }
+  ]
+}
